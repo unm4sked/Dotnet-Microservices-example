@@ -1,3 +1,5 @@
+using System;
+
 namespace Actio.Common.Events
 {
     public class ActivityCreated : IAuthenticatedEvent
