@@ -65,7 +65,7 @@ namespace Actio.Common.Services
         public class BusBuilder : BuilderBase
         {
             private readonly IWebHost _webHost;
-            private IBusClient _bus;
+            private readonly IBusClient _bus;
             public BusBuilder(IWebHost webHost, IBusClient bus)
             {
                 _webHost = webHost;
